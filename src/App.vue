@@ -21,8 +21,9 @@ export default {
 
 <style scoped>
 #app {
-  background: #e5e5e5;
+  background: #f6f6f6;
   height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 .flex {
   display: flex;
