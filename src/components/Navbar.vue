@@ -38,8 +38,8 @@ export default {
 <style scoped>
 .nav-bg {
   background: #fff;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
 }
 .res {
   width: 3rem;

@@ -52,6 +52,7 @@ export default {};
 <style scoped>
 .home {
   margin-top: 60px;
+  margin-left: 5rem;
 }
 .d-card {
   width: 300px;

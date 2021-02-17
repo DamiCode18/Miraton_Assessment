@@ -1,19 +1,19 @@
 <template>
-  <div class="about mt-5">
+  <div class="investments mt-5">
     <div class="flex">
       <div>
         <h1>Investment</h1>
         <p class="wid">Choose from our available investment plans</p>
       </div>
-      <div>
+      <div class="mt-3">
         <img class="mx-3" src="@/assets/Capture 4.svg" alt="" /> Investment
         Plans
       </div>
-      <div class="clr">
+      <div class="clr mt-3">
         <img class="mx-3" src="@/assets/Capture 5.svg" alt="" /> Create
         Investment
       </div>
-      <div class="clr">
+      <div class="clr mt-3">
         <img class="mx-3" src="@/assets/Capture 6.svg" alt="" /> Confirm
         Investment
       </div>
@@ -25,13 +25,21 @@
           <h5>12% P/A</h5>
           <p>30 Days</p>
         </div>
-        <div class="text-center">
-        <div><img src="@/assets/check.svg" alt="" /> Automatically Renewable</div>
-        <div><img src="@/assets/check.svg" alt="" /> Automatic Renewal Options</div>
-        <div><img src="@/assets/check.svg" alt="" /> Cancel Renewal Anytime</div>
-        <div><img src="@/assets/check.svg" alt="" /> Fast Automated Payout</div>
-        <button class="btn btn-style">Make Investment</button>
-      </div>
+        <div class="text-center fnt">
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Automatically Renewable
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Automatic Renewal Options
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Cancel Renewal Anytime
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Fast Automated Payout
+          </div>
+          <button class="btn btn-style">Make Investment</button>
+        </div>
       </div>
       <div class="w-curve">
         <div class="curve">
@@ -39,13 +47,21 @@
           <h5>12% P/A</h5>
           <p>30 Days</p>
         </div>
-        <div class="text-center">
-        <div><img src="@/assets/check.svg" alt="" /> Automatically Renewable</div>
-        <div><img src="@/assets/check.svg" alt="" /> Automatic Renewal Options</div>
-        <div><img src="@/assets/check.svg" alt="" /> Cancel Renewal Anytime</div>
-        <div><img src="@/assets/check.svg" alt="" /> Fast Automated Payout</div>
-        <button class="btn btn-style">Make Investment</button>
-      </div>
+        <div class="text-center fnt">
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Automatically Renewable
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Automatic Renewal Options
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Cancel Renewal Anytime
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Fast Automated Payout
+          </div>
+          <button class="btn btn-style">Make Investment</button>
+        </div>
       </div>
       <div class="w-curve">
         <div class="curve">
@@ -53,41 +69,65 @@
           <h5>12% P/A</h5>
           <p>30 Days</p>
         </div>
-        <div class="text-center">
-        <div><img src="@/assets/check.svg" alt="" /> Automatically Renewable</div>
-        <div><img src="@/assets/check.svg" alt="" /> Automatic Renewal Options</div>
-        <div><img src="@/assets/check.svg" alt="" /> Cancel Renewal Anytime</div>
-        <div><img src="@/assets/check.svg" alt="" /> Fast Automated Payout</div>
-        <button class="btn btn-style">Make Investment</button>
-      </div>
+        <div class="text-center fnt">
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Automatically Renewable
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Automatic Renewal Options
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Cancel Renewal Anytime
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Fast Automated Payout
+          </div>
+          <button class="btn btn-style">Make Investment</button>
+        </div>
       </div>
       <div class="w-curve">
         <div class="curve">
-          <p>Silver</p>
+          <p>Platinum</p>
           <h5>12% P/A</h5>
           <p>30 Days</p>
         </div>
-        <div class="text-center">
-        <div><img src="@/assets/check.svg" alt="" /> Automatically Renewable</div>
-        <div><img src="@/assets/check.svg" alt="" /> Automatic Renewal Options</div>
-        <div><img src="@/assets/check.svg" alt="" /> Cancel Renewal Anytime</div>
-        <div><img src="@/assets/check.svg" alt="" /> Fast Automated Payout</div>
-        <button class="btn btn-style">Make Investment</button>
-      </div>
+        <div class="text-center fnt">
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Automatically Renewable
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Automatic Renewal Options
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Cancel Renewal Anytime
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Fast Automated Payout
+          </div>
+          <button class="btn btn-style">Make Investment</button>
+        </div>
       </div>
       <div class="w-curve">
         <div class="curve">
-          <p>Silver</p>
+          <p>Bond</p>
           <h5>12% P/A</h5>
           <p>30 Days</p>
         </div>
-      <div class="text-center">
-        <div><img src="@/assets/check.svg" alt="" /> Automatically Renewable</div>
-        <div><img src="@/assets/check.svg" alt="" /> Automatic Renewal Options</div>
-        <div><img src="@/assets/check.svg" alt="" /> Cancel Renewal Anytime</div>
-        <div><img src="@/assets/check.svg" alt="" /> Fast Automated Payout</div>
-        <button class="btn btn-style">Make Investment</button>
-      </div>
+        <div class="text-center fnt">
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Automatically Renewable
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Automatic Renewal Options
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Cancel Renewal Anytime
+          </div>
+          <div>
+            <img src="@/assets/check.svg" alt="" /> Fast Automated Payout
+          </div>
+          <button class="btn btn-style">Make Investment</button>
+        </div>
       </div>
     </div>
   </div>
@@ -132,13 +172,24 @@ export default {};
   grid-auto-rows: auto;
   gap: 20px;
 }
-.btn-style{
+.btn-style {
   color: #fff;
   background: #008080;
-  width: 176px;
-height: 46px;
-border-radius: 10px;
-padding: 15px 34px;
-margin-top: 15px;
+  width: 178px;
+  height: 46px;
+  border-radius: 10px;
+  padding: 15px 34px;
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.investments {
+  margin-left: 5rem;
+}
+.fnt {
+  font-size: 14px;
+  color: #7c7c7c;
 }
 </style>

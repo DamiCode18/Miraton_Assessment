@@ -60,8 +60,8 @@ export default {};
 
 <style scoped>
 .pads {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 15rem;
+  margin-right: 5rem;
   display: flex;
   margin-bottom: 50px;
   width: 180px;
@@ -77,6 +77,7 @@ export default {};
   height: 50px;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  padding: 12px;
 }
 .udr {
   text-decoration: none;
