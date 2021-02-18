@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg nav-bg">
+    <nav class="navbar navbar-expand-lg nav-bg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img src="@/assets/cloudbank 1.svg" alt="img"

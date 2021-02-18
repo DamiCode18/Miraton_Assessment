@@ -1,5 +1,5 @@
 <template>
-  <div class="investments mt-5">
+  <div class="investments">
     <div class="flex">
       <div>
         <h1>Investment</h1>
@@ -155,7 +155,6 @@ export default {};
   top: 321px;
   color: #fff;
   text-align: center;
-  z-index: 1;
 }
 .w-curve {
   width: 294px;
@@ -187,6 +186,7 @@ export default {};
 }
 .investments {
   margin-left: 5rem;
+  margin-top: 150px;
 }
 .fnt {
   font-size: 14px;

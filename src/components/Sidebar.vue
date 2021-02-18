@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5 sb-wid">
+  <div class="sb-wid">
     <div class="pads">
       <router-link class="udr" to="/"
         ><img
@@ -82,5 +82,8 @@ export default {};
 .udr {
   text-decoration: none;
   color: #333333;
+}
+.sb-wid {
+  margin-top: 10rem;
 }
 </style>
