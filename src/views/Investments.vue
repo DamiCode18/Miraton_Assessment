@@ -153,7 +153,7 @@ export default {};
 }
 .wid {
   width: 261px;
-  color: #313E3E;
+  color: #313e3e;
 }
 .clr {
   color: #a1a1a1;

@@ -102,13 +102,21 @@
           <div>
             <h6>Breakdown</h6>
           </div>
-          <div class="flex">
+          <div class="flex my-auto">
             <div class="text-center">
               <h6>Yesterday</h6>
             </div>
-            <div>
-              <h6><img src="@/assets/Polygon 1.svg" alt="" /></h6>
-              <h6><img src="@/assets/Polygon 2.svg" alt="" /></h6>
+            <div class="mx-1">
+              <img
+                style="margin-top: -1.6rem"
+                src="@/assets/Polygon 1.svg"
+                alt=""
+              /><br />
+              <img
+                style="margin-top: -3rem"
+                src="@/assets/Polygon 2.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="sb-wid">
     <div>
-      <router-link class="udr pads" to="/"
+      <router-link class="udr pads p-2" to="/"
         ><img
           class="mx-3 img-siz"
           src="@/assets/dashboard 1.svg"
@@ -10,13 +10,13 @@
       >
     </div>
     <div>
-      <router-link class="udr pads" to="/money"
+      <router-link class="udr pads p-2" to="/money"
         ><img class="mx-3 img-siz" src="@/assets/Group.svg" alt="img" />Send
         Money</router-link
       >
     </div>
     <div>
-      <router-link class="udr pads" to="/investments"
+      <router-link class="udr pads p-2" to="/investments"
         ><img
           class="mx-3 img-siz"
           src="@/assets/bill line.svg"
@@ -25,7 +25,7 @@
       >
     </div>
     <div>
-      <router-link class="udr pads" to="/transactions"
+      <router-link class="udr pads p-2" to="/transactions"
         ><img
           class="mx-3 img-siz"
           src="@/assets/bill line.svg"
@@ -34,7 +34,7 @@
       >
     </div>
     <div>
-      <router-link class="udr pads" to="/settings"
+      <router-link class="udr pads p-2" to="/settings"
         ><img
           class="mx-3 img-siz"
           src="@/assets/settings line.svg"
@@ -43,7 +43,7 @@
       >
     </div>
     <div>
-      <router-link class="udr pads" to="/logout"
+      <router-link class="udr pads p-2" to="/logout"
         ><img
           class="mx-3 img-siz"
           src="@/assets/Group (1).svg"
@@ -70,8 +70,8 @@ export default {};
   width: 30px;
   height: 30px;
 }
-.pads:active, .pads:hover,
-router-link:active {
+
+.router-link-exact-active {
   background: #fff;
   width: 180px;
   color: #333333;
