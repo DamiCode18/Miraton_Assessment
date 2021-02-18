@@ -1,7 +1,7 @@
 <template>
   <div class="sb-wid">
-    <div class="pads">
-      <router-link class="udr" to="/"
+    <div>
+      <router-link class="udr pads" to="/"
         ><img
           class="mx-3 img-siz"
           src="@/assets/dashboard 1.svg"
@@ -9,14 +9,14 @@
         />Home</router-link
       >
     </div>
-    <div class="pads">
-      <router-link class="udr" to="/money"
+    <div>
+      <router-link class="udr pads" to="/money"
         ><img class="mx-3 img-siz" src="@/assets/Group.svg" alt="img" />Send
         Money</router-link
       >
     </div>
-    <div class="pads">
-      <router-link class="udr" to="/investments"
+    <div>
+      <router-link class="udr pads" to="/investments"
         ><img
           class="mx-3 img-siz"
           src="@/assets/bill line.svg"
@@ -24,8 +24,8 @@
         />Investments</router-link
       >
     </div>
-    <div class="pads">
-      <router-link class="udr" to="/transactions"
+    <div>
+      <router-link class="udr pads" to="/transactions"
         ><img
           class="mx-3 img-siz"
           src="@/assets/bill line.svg"
@@ -33,8 +33,8 @@
         />Transactions</router-link
       >
     </div>
-    <div class="pads">
-      <router-link class="udr" to="/settings"
+    <div>
+      <router-link class="udr pads" to="/settings"
         ><img
           class="mx-3 img-siz"
           src="@/assets/settings line.svg"
@@ -42,8 +42,8 @@
         />Settings</router-link
       >
     </div>
-    <div class="pads">
-      <router-link class="udr" to="/logout"
+    <div>
+      <router-link class="udr pads" to="/logout"
         ><img
           class="mx-3 img-siz"
           src="@/assets/Group (1).svg"
@@ -60,7 +60,7 @@ export default {};
 
 <style scoped>
 .pads {
-  margin-left: 15rem;
+  margin-left: 20rem;
   margin-right: 5rem;
   display: flex;
   margin-bottom: 50px;
@@ -70,10 +70,11 @@ export default {};
   width: 30px;
   height: 30px;
 }
-.pads:hover,
+.pads:active, .pads:hover,
 router-link:active {
   background: #fff;
   width: 180px;
+  color: #333333;
   height: 50px;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
   border-radius: 10px;

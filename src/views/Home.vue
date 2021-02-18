@@ -170,8 +170,7 @@ export default {};
 
 <style scoped>
 .home {
-  margin-top: 150px;
-  margin-left: 5rem;
+  margin-top: 190px;
 }
 .d-card {
   width: 300px;

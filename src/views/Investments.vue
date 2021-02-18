@@ -2,7 +2,7 @@
   <div class="investments">
     <div class="flex">
       <div>
-        <h1>Investment</h1>
+        <h1 style="color: #333333">Investment</h1>
         <p class="wid">Choose from our available investment plans</p>
       </div>
       <div class="mt-3">
@@ -153,6 +153,7 @@ export default {};
 }
 .wid {
   width: 261px;
+  color: #313E3E;
 }
 .clr {
   color: #a1a1a1;
@@ -195,8 +196,7 @@ export default {};
   line-height: 16px;
 }
 .investments {
-  margin-left: 5rem;
-  margin-top: 150px;
+  margin-top: 190px;
 }
 .fnt {
   font-size: 14px;
