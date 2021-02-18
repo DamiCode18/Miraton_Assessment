@@ -21,9 +21,11 @@
     <div class="grid">
       <div class="w-curve">
         <div class="curve">
-          <p>Silver</p>
-          <h5>12% P/A</h5>
-          <p>30 Days</p>
+          <p class="p-text txt-pad">Silver</p>
+          <h5 style="font-size: 2.2rem">
+            12<span style="font-size: 1.5rem">% P/A</span>
+          </h5>
+          <p class="p-text">30 Days</p>
         </div>
         <div class="text-center fnt">
           <div>
@@ -43,9 +45,11 @@
       </div>
       <div class="w-curve">
         <div class="curve">
-          <p>Silver</p>
-          <h5>12% P/A</h5>
-          <p>30 Days</p>
+          <p class="p-text txt-pad">Gold</p>
+          <h5 style="font-size: 2.2rem">
+            13<span style="font-size: 1.5rem">% P/A</span>
+          </h5>
+          <p class="p-text">90 Days</p>
         </div>
         <div class="text-center fnt">
           <div>
@@ -65,9 +69,11 @@
       </div>
       <div class="w-curve">
         <div class="curve">
-          <p>Silver</p>
-          <h5>12% P/A</h5>
-          <p>30 Days</p>
+          <p class="p-text txt-pad">Diamond</p>
+          <h5 style="font-size: 2.2rem">
+            13.5<span style="font-size: 1.5rem">% P/A</span>
+          </h5>
+          <p class="p-text">180 Days</p>
         </div>
         <div class="text-center fnt">
           <div>
@@ -87,9 +93,11 @@
       </div>
       <div class="w-curve">
         <div class="curve">
-          <p>Platinum</p>
-          <h5>12% P/A</h5>
-          <p>30 Days</p>
+          <p class="p-text txt-pad">Platinum</p>
+          <h5 style="font-size: 2.2rem">
+            15<span style="font-size: 1.5rem">% P/A</span>
+          </h5>
+          <p class="p-text">12 Months</p>
         </div>
         <div class="text-center fnt">
           <div>
@@ -109,9 +117,11 @@
       </div>
       <div class="w-curve">
         <div class="curve">
-          <p>Bond</p>
-          <h5>12% P/A</h5>
-          <p>30 Days</p>
+          <p class="p-text txt-pad">Bond</p>
+          <h5 style="font-size: 2.2rem">
+            19.50<span style="font-size: 1.5rem">% P/A</span>
+          </h5>
+          <p class="p-text">18 Months</p>
         </div>
         <div class="text-center fnt">
           <div>
@@ -191,5 +201,12 @@ export default {};
 .fnt {
   font-size: 14px;
   color: #7c7c7c;
+}
+.p-text {
+  font-size: 14px;
+}
+.txt-pad {
+  padding-top: 15px;
+  margin-bottom: 0px !important;
 }
 </style>

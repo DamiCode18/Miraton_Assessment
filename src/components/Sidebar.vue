@@ -71,7 +71,7 @@ export default {};
   height: 30px;
 }
 .pads:hover,
-.pads.router-link-active {
+router-link:active {
   background: #fff;
   width: 180px;
   height: 50px;

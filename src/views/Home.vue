@@ -3,23 +3,32 @@
     <h1>Obinna,</h1>
     <p>Good morning, it’s a good day to save 🤑</p>
     <div class="flex">
-      <div class="d-card mx-2">
-        <p>SAVINGS ACCOUNT</p>
-        <h5>#0.00</h5>
+      <div class="d-card">
+        <p style="font-size: 14px">SAVINGS ACCOUNT</p>
+        <h5 style="font-size: 24px; color: #658383">
+          ₦<span style="color: #000; font-size: 2rem"> 2,900.00</span>
+        </h5>
       </div>
-      <div class="d-card mx-2">
-        <p>BUSINESS ACCOUNT</p>
-        <h5>#2,900.00</h5>
+      <div class="d-card">
+        <p style="font-size: 14px">BUSINESS ACCOUNT</p>
+        <h5 style="font-size: 24px; color: #658383">
+          ₦<span style="color: #000; font-size: 2rem"> 0.00</span>
+        </h5>
       </div>
-      <div class="d-card mx-2">
+      <div class="d-card">
         <div class="flex2">
-          <p>Investments</p>
-          <p style="color: #2f80ed">0229238715</p>
+          <p style="font-size: 12px">Investments</p>
+          <p style="color: #2f80ed; font-size: 12px">0229238715</p>
         </div>
-        <h5>#2,900.00</h5>
+        <h5 class="text-center" style="font-size: 2rem">
+          <sup style="font-size: 18px; color: #658383">₦</sup> 10,000<span
+            style="font-size: 1rem"
+            >.98</span
+          >
+        </h5>
         <div class="flex2">
-          <p style="color: #2f80ed">8.19%</p>
-          <p>0229238715</p>
+          <p style="color: #2f80ed; font-size: 12px">8.18%</p>
+          <p style="font-size: 12px">29/09/2020</p>
         </div>
       </div>
     </div>
@@ -72,7 +81,7 @@
             </div>
           </div>
         </div>
-        <h6 class="p-text mt-4">Tomorrow</h6>
+        <h6 class="p-text mt-4">Yesterday</h6>
         <div class="p-text my-auto">
           <div class="sb2-flex">
             <div class="flex">
@@ -109,38 +118,46 @@
         <div class="abs text-center">
           <img src="@/assets/Vector 2.svg" alt="" />
         </div>
-        <div class="abs2">
-          <h6>Total Money Recieved</h6>
-          <h6>₦ 2,000.00</h6>
-          <h6>Total Money Spent</h6>
-          <h6>₦ 900.00</h6>
+        <div class="abs2 px-4">
+          <h6 style="font-size: 14px">Total Money Recieved</h6>
+          <h6 style="color: #219653; font-size: 18px">₦ 2,000.00</h6>
+          <h6 class="mt-3" style="font-size: 14px">Total Money Spent</h6>
+          <h6 style="color: #db261b; font-size: 18px">₦ 900.00</h6>
         </div>
       </div>
     </div>
     <div class="l-card mt-4">
-      <div class="">
+      <div class="mx-5">
         <div class="l-bg">
-          <p>Total</p>
-          <h6>₦2909.98</h6>
+          <p style="font-size: 12px">Total</p>
+          <h6 style="font-size: 24px; font-weight: 500; font-style: normal">
+            ₦2909.98
+          </h6>
         </div>
-        <div class="flex">
-          <div><img src="@/assets/Ellipse 4.svg" alt="" /> Savings</div>
-          <div><img src="@/assets/Ellipse 5.svg" alt="" /> Business</div>
-          <div><img src="@/assets/Ellipse 6.svg" alt="" /> Investment</div>
+        <div class="flex mt-3" style="margin: -3.5rem">
+          <div class="mx-3 mt-3" style="font-size: 12px">
+            <img src="@/assets/Ellipse 4.svg" alt="" /> Savings
+          </div>
+          <div class="mx-3 mt-3" style="font-size: 12px">
+            <img src="@/assets/Ellipse 5.svg" alt="" /> Business
+          </div>
+          <div class="mx-3 mt-3" style="font-size: 12px">
+            <img src="@/assets/Ellipse 6.svg" alt="" /> Investment
+          </div>
         </div>
       </div>
-      <div>
-        <div>
-          <h6>Savings</h6>
-          <h6>₦ 2,900.00</h6>
+      <div style="margin-left: 8rem">
+        <div class="mt-4">
+          <h6 style="font-size: 18px">Savings</h6>
+          <h6 style="font-size: 14px; color: #219653">₦ 2,900.00</h6>
         </div>
-        <div>
-          <h6>Savings</h6>
-          <h6>₦ 2,900.00</h6>
+        <div class="mt-4">
+          <h6 style="font-size: 18px">Business</h6>
+          <h6 style="font-size: 14px; color: #219653">₦ 0.00</h6>
         </div>
-        <div>
-          <h6>Savings</h6>
-          <h6>₦ 2,900.00</h6>
+        <div class="mt-4">
+          <h6 style="font-size: 18px">Investment</h6>
+          <h6 style="font-size: 14px; color: #219653">₦ 9.98</h6>
         </div>
       </div>
     </div>
@@ -160,9 +177,10 @@ export default {};
   width: 300px;
   height: 130px;
   top: 268px;
+  margin: 0px 5px;
   background: #ffffff;
   border-radius: 10px;
-  padding: 2rem;
+  padding: 1rem 2rem;
 }
 .flex {
   display: flex;
@@ -182,6 +200,7 @@ export default {};
 .t-card {
   width: 612px;
   height: 392px;
+  margin: 0px 2px;
   left: 396px;
   top: 681px;
   background: #ffffff;
@@ -254,5 +273,6 @@ export default {};
   height: 190px;
   text-align: center;
   box-sizing: border-box;
+  padding-top: 50px;
 }
 </style>
