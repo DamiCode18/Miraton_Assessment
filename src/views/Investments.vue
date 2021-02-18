@@ -118,7 +118,7 @@
       <div class="w-curve">
         <div class="curve">
           <p class="p-text txt-pad">Bond</p>
-          <h5 style="font-size: 2.2rem">
+          <h5 style="font-size: 2.2rem;">
             19.50<span style="font-size: 1.5rem">% P/A</span>
           </h5>
           <p class="p-text">18 Months</p>

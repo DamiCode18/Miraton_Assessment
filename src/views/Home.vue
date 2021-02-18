@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="mt-4">
-      <h5>Announcement</h5>
+      <h5 style="font-size: 18px">Announcement</h5>
     </div>
     <div class="a-card my-2">
       <img class="p-3" src="@/assets/Ellipse 8.svg" alt="img" /> Finish your KYC
@@ -52,7 +52,7 @@
           <h6>Transactions</h6>
           <h6 style="color: #658383">View all</h6>
         </div>
-        <h6 class="p-text">Today</h6>
+        <h6 class="p-text" style="font-size: 12px;">TODAY</h6>
         <div class="p-text my-auto">
           <div class="sb-flex">
             <div class="flex">
@@ -81,7 +81,7 @@
             </div>
           </div>
         </div>
-        <h6 class="p-text mt-4">Yesterday</h6>
+        <h6 class="p-text mt-4" style="font-size: 12px;">YESTERDAY</h6>
         <div class="p-text my-auto">
           <div class="sb2-flex">
             <div class="flex">
@@ -144,13 +144,13 @@
         </div>
         <div class="flex mt-3" style="margin: -3.5rem">
           <div class="mx-3 mt-3" style="font-size: 12px">
-            <img src="@/assets/Ellipse 4.svg" alt="" /> Savings
+            <img src="@/assets/Ellipse 4.svg" alt="" /> <span class="i-cls">Savings</span>
           </div>
           <div class="mx-3 mt-3" style="font-size: 12px">
-            <img src="@/assets/Ellipse 5.svg" alt="" /> Business
+            <img src="@/assets/Ellipse 5.svg" alt="" /> <span class="i-cls">Business</span>
           </div>
           <div class="mx-3 mt-3" style="font-size: 12px">
-            <img src="@/assets/Ellipse 6.svg" alt="" /> Investment
+            <img src="@/assets/Ellipse 6.svg" alt="" /> <span class="i-cls">Investment</span>
           </div>
         </div>
       </div>
@@ -237,6 +237,7 @@ export default {};
 .p-text {
   padding-left: 30px;
   font-size: 14px;
+  color: #333333;
 }
 .sb-flex {
   display: flex;
@@ -281,5 +282,8 @@ export default {};
   text-align: center;
   box-sizing: border-box;
   padding-top: 50px;
+}
+.i-cls {
+  color: #828282;
 }
 </style>
