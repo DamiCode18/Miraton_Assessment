@@ -1,9 +1,11 @@
 <template>
-  <div>
-    <h3 class="notfound">
-      Page Not Created...<br />
-      <p class="mt-4">Oh yeah, design not included to be precise!!!</p>
-    </h3>
+  <div class="notfound">
+    <div>
+      <h3>
+        Page Not Created...<br />
+        <p class="mt-4">Oh yeah, design not included to be precise!!!</p>
+      </h3>
+    </div>
   </div>
 </template>
 
