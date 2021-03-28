@@ -52,7 +52,7 @@
           <h6>Transactions</h6>
           <h6 style="color: #658383">View all</h6>
         </div>
-        <h6 class="p-text" style="font-size: 12px;">TODAY</h6>
+        <h6 class="p-text" style="font-size: 12px">TODAY</h6>
         <div class="p-text my-auto">
           <div class="sb-flex">
             <div class="flex">
@@ -81,7 +81,7 @@
             </div>
           </div>
         </div>
-        <h6 class="p-text mt-4" style="font-size: 12px;">YESTERDAY</h6>
+        <h6 class="p-text mt-4" style="font-size: 12px">YESTERDAY</h6>
         <div class="p-text my-auto">
           <div class="sb2-flex">
             <div class="flex">
@@ -144,13 +144,16 @@
         </div>
         <div class="flex mt-3" style="margin: -3.5rem">
           <div class="mx-3 mt-3" style="font-size: 12px">
-            <img src="@/assets/Ellipse 4.svg" alt="" /> <span class="i-cls">Savings</span>
+            <img src="@/assets/Ellipse 4.svg" alt="" />
+            <span class="i-cls">Savings</span>
           </div>
           <div class="mx-3 mt-3" style="font-size: 12px">
-            <img src="@/assets/Ellipse 5.svg" alt="" /> <span class="i-cls">Business</span>
+            <img src="@/assets/Ellipse 5.svg" alt="" />
+            <span class="i-cls">Business</span>
           </div>
           <div class="mx-3 mt-3" style="font-size: 12px">
-            <img src="@/assets/Ellipse 6.svg" alt="" /> <span class="i-cls">Investment</span>
+            <img src="@/assets/Ellipse 6.svg" alt="" />
+            <span class="i-cls">Investment</span>
           </div>
         </div>
       </div>
